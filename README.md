@@ -1,16 +1,16 @@
 # VolumetricTools-Fab
 
-This is a FREE Unreal Engine plugin, available on Fab, that adds Volume assets features in the editor.
+This is a FREE Unreal Engine plugin, available on Fab. It is a collection of editor utilities for manipulating volume textures and streamlining volumetric workflows.
 
 The plugin can:
 * Convert **Static Vector Field assets** into **Volume Texture assets**, preserving dimensions and voxel data.
-* Convert **Sparse Volume Texture assets** into (dense) **Volume Texture assets**, with same size or with downsizing.
-* Apply any **mathematical operation on texture values**, creating a new Texture or modifying source texture in-place.
+* Convert **Sparse Volume Texture assets** into (dense) **Volume Texture assets**, with options to preserve the original resolution or downsample to a smaller size.
+* Apply **mathematical operations to texture values**, either creating a new texture or modifying the source texture in place.
 
 ## Table of Contents
 - [Install](#Install)
 - [Vector Field to Volume Textures](#Vector-Field-To-Volume-Texture)
-- [SVT to Volume Texture](#Sparse-Volume-Texture-(SVT)-to-Volume-Texture)
+- [SVT to Volume Texture](#Sparse-Volume-Texture-to-Volume-Texture)
 - [Math Expression on Textures](#Modify-Texture-values)
 
 
@@ -28,7 +28,7 @@ A new Volume Texture will be created in the same folder.
 <img width="1447" height="968" alt="DisplayVolume" src="https://github.com/user-attachments/assets/c6fda7e0-9c99-4a25-ba4f-0e082d388d90" />
 
 
-## Sparse Volume Texture (SVT) to Volume Texture
+## Sparse Volume Texture to Volume Texture
 
 Right click on any Sparse Volume Texture, select **Convert to Dense Volume Texture**.
 

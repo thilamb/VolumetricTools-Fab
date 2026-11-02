@@ -12,12 +12,13 @@ The plugin can:
 - [Vector Field to Volume Textures](#Vector-Field-To-Volume-Texture)
 - [SVT to Volume Texture](#Sparse-Volume-Texture-to-Volume-Texture)
 - [Math Expression on Textures](#Modify-Texture-values)
+- [Change Texture format](#Change-Texture-format)
 
 
 ## Install
 
 First make sure that the plugin is enabled:
-<img width="1058" height="267" alt="image" src="https://github.com/user-attachments/assets/cf446b82-0347-490e-bb64-a172ec2db18f" />
+<img width="1136" height="237" alt="image" src="https://github.com/user-attachments/assets/3df3342a-62fc-4b5e-b87e-605ebae5fac4" />
 
 ## Vector Field To Volume Texture
 
@@ -32,9 +33,12 @@ A new Volume Texture will be created in the same folder.
 
 Right click on any Sparse Volume Texture, select **Convert to Dense Volume Texture**.
 
-You'll have the option to choose from Attribute A or B, to convert just the first channel (R) or first three (RGB) or all channels.
+You'll have the option to choose from Attribute A or B, to convert just the first channel (R) or first three (RGB) or all channels. If you right clicked an animated Sparse Volume Texture, you can also select which frame you want to convert.
+
+<img width="424" height="327" alt="2026-11-02 11_17_57-Convert Sparse Volume Texture to Dense" src="https://github.com/user-attachments/assets/d3aa1409-a4e3-4eec-84c9-02ecea0c0dad" />
 
 You can keep the original size, or downsize to some cubic sizes. When downsizing, you will loose the original volume ratio.
+<img width="433" height="384" alt="2026-10-31 15_27_19-SVT_5_7_CPP - Unreal Editor" src="https://github.com/user-attachments/assets/0e85eef7-6259-44dd-9632-54f137e52556" />
 
 ## Modify Texture values
 
@@ -51,5 +55,19 @@ Allowed math operations are: `+, -, *, /, ^, (, ), abs, floor, ceil, sqrt, log, 
 4. Also works on Volume Textures:
 <img width="627" height="297" alt="2026-10-31 15_37_16-SVT_5_7_CPP - Unreal Editor" src="https://github.com/user-attachments/assets/3b85683c-c5d8-428e-b7c2-ed2a706ee851" />
 
+
+## Change Texture format
+
+You can now change a texture's format by right-clicking on any texture:
+
+<img width="1052" height="288" alt="2026-11-02 11_19_25-SVT_5_7_CPP - Unreal Editor" src="https://github.com/user-attachments/assets/d09bd27d-059e-4ea7-a479-0be7958ff68a" />
+
+Select a destination format, depending on the format you might have some additional options. The change can happen in place or in a new texture (default).
+
+<img width="420" height="276" alt="2026-11-02 11_19_56-Change Texture Format" src="https://github.com/user-attachments/assets/9fca0921-37e6-47bb-a75d-b3c1e10c2201" />
+
+
+
+## The end
 
 Enjoy.

@@ -6,6 +6,7 @@ The plugin can:
 * Convert **Static Vector Field assets** into **Volume Texture assets**, preserving dimensions and voxel data.
 * Convert **Sparse Volume Texture assets** into (dense) **Volume Texture assets**, with options to preserve the original resolution or downsample to a smaller size.
 * Apply **mathematical operations to texture values**, either creating a new texture or modifying the source texture in place.
+* Change **Texture Format** by either creating a new texture or modifying the source texture in place.
 
 ## Table of Contents
 - [Install](#Install)
